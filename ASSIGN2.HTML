@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Window</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('modern-office-space-interior_158595-5206.AVIF') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 350px;
+      background-color: rgba(0, 0, 0, 0.75); /* semi-transparent dark background */
+      padding: 30px 25px;
+      border-radius: 8px;
+      color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 14px;
+    }
+
+    .login-container input::placeholder {
+      color: #888;
+    }
+
+    .login-container label {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .login-container label input {
+      margin-right: 8px;
+    }
+
+    .login-container label a {
+      color: #ffffff;
+      text-decoration: underline;
+      margin-left: 5px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #f5a623;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #e69700;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>LOGIN WINDOW</h2>
+    <input type="email" placeholder="Your Email Address" />
+    <input type="password" placeholder="Your Password" />
+    <label>
+      <input type="checkbox" />
+      Agree With <a href="#">Terms & Condition</a>
+    </label>
+    <button>Login</button>
+  </div>
+</body>
+</html>
