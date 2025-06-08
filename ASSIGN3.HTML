@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Window</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("excellent-modern-office-beautiful-long-office-corridor-decluttered-room-background-wallpaper-business-333673482.webp") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 320px;
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+      padding: 30px 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .avatar {
+      background: #e14e4e;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar img {
+      width: 60px;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid white;
+      background: transparent;
+      color: white;
+      outline: none;
+    }
+
+    .login-container input::placeholder {
+      color: #ddd;
+    }
+
+    .login-container label {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    .login-container label a {
+      color: #00bfff;
+      margin-left: 5px;
+      text-decoration: none;
+    }
+
+    .login-container button {
+      margin-top: 10px;
+      padding: 10px 0;
+      width: 100%;
+      background-color: #00b300;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #009900;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="avatar">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Avatar" />
+    </div>
+    <h2>LOGIN WINDOW</h2>
+    <input type="email" placeholder="Your Email Address" />
+    <input type="password" placeholder="Your Password" />
+    <label>
+      <input type="checkbox" />
+      Agree With <a href="#">Terms & Condition</a>
+    </label>
+    <button>Login</button>
+  </div>
+</body>
+</html>
